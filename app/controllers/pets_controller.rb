@@ -18,6 +18,11 @@ class PetsController < ApplicationController
       redirect to "pets/#{@pet.id}"
    end
 
+ 
+ 
+ 
+ 
+ 
   patch '/pets/:id' do 
 
     redirect to "pets/#{@pet.id}"
